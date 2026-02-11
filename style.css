@@ -1,0 +1,62 @@
+/* ===== RESET ===== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* ===== HEADER / NAVBAR ===== */
+.head {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: #d16c84; /* pink bar */
+  padding: 12px 20px;
+}
+
+/* LOGO */
+.head h1 {
+  margin: 0;
+  font-size: 24px;
+  color: black;
+}
+
+/* 🔥 PUSH MENU TO RIGHT */
+.head nav {
+  margin-left: auto;
+}
+
+/* MENU LIST */
+.head nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+/* MENU LINKS */
+.head nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* HOVER EFFECT */
+.head nav ul li a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+#three{
+  size: 10%;
+}
+
+.menu{
+  display: inline;
+}
