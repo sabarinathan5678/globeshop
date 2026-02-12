@@ -9,8 +9,8 @@
     <center>
         <div class="one">
         <h1 id="sign">sign</h1>
-        <input type="number" placeholder="enter your number"><br>
-        <input type="password" placeholder="Enter your password"><br>
+        <input class="t" type="number" placeholder="enter your number"><br>
+        <input class="t" type="password" placeholder="Enter your password"><br>
         <button id="two" onclick="gohome()">sign</button><br>
         </div>
     </center>
@@ -26,23 +26,32 @@
 <style>
 .one{
     border: solid;color: gray;border-style: double;
-    width: 50%;
+    width: 40%;
     background-color: gray;
-    font-style: italic;
+    font-style: inherit;
+    text-align: center;
 }
 
 #two{
     color: white;
     background-color: black;
-    height: 40px;
+    height: 20px;
     width: 80px;
 }
 
 #body{
-    background-color: black;
+    background-color:gray;
+    padding: 15%;
 }
 
 #sign{
     color: white;
+}
+
+.t{
+    height: 10px;
+    width: 50%;
+    padding: 2%;
+    
 }
 </style>

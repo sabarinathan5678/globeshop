@@ -14,7 +14,7 @@ body {
   display: flex;
   align-items: center;
   width: 100%;
-  background-color: #d16c84; /* pink bar */
+  background-color: gray; /* pink bar */
   padding: 12px 20px;
 }
 
@@ -59,4 +59,12 @@ body {
 
 .menu{
   display: inline;
+}
+.navbar{
+  display: inline;
+}
+
+#search{
+  background-color: white;
+  color: palevioletred;
 }
