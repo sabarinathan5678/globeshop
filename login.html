@@ -10,10 +10,24 @@
     <div id="cc">
     <section id="page">
     <h2>login</h2>
-    <input class="zx" type="text" placeholder="Enter your name"><br>
-    <input class="zx" type="number" placeholder="Enter your number"><br>
-    <input class="zx" type="text" placeholder="Enter your email"><br>
-    <button class="zx" onclick="gohome()">login</button><br>
+    <input class="zx" type="text" placeholder="Enter your name">
+    <br>
+    <br>
+    <input class="zx" type="number" placeholder="Enter your number">
+    <br>
+    <br>
+    <input class="zx" type="text" placeholder="Enter your email">
+    <br>
+    <br>
+    <input class="zx" type="password" placeholder="create your password">
+    <br>
+    <br>
+    <input class="zx" type="password" placeholder="confirm your password">
+    <br>
+    <br>
+    <button id="loginbutton" onclick="gohome()">login</button>
+    <br>
+    <br>
     <button id="sign" onclick="sign()">sign in</button>
     </section>
     </div>
@@ -37,9 +51,6 @@
         background-color: gray;
     }
 
-    #page{
-        border: solid;color: black; width: fit-content;
-    }
 
     #cc{
      padding: 8%;
@@ -47,6 +58,22 @@
 #sign{
     border-radius: 30px;
     border: none;
+    padding: 10px;
+    width: 10%;
+}
+
+.zx{
+    border-radius: 30px;
+    border: none;
+    padding: 10px;
+    width: 30%;
+}
+
+#loginbutton{
+    border-radius: 30px;
+    border: none;
+    padding: 10px;
+    width: 10%;
 }
 
 </style>
