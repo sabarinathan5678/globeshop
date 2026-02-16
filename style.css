@@ -73,3 +73,15 @@ body {
   width: 30%;
   border-radius: 30px;
 }
+
+.shirts{
+  height: 20%;
+  width: 20%;
+  display: flex;
+  display: inline;
+  padding: 30px;
+  border: solid;
+  border-radius: 20px;
+  border-color: grey;
+  cursor: pointer;
+}
