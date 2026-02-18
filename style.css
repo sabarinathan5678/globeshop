@@ -85,3 +85,12 @@ body {
   border-color: grey;
   cursor: pointer;
 }
+
+#Add{
+  padding: 10px;
+  width: 80px;
+  border-radius: 30px;
+  background-color: gray;
+  color: white;
+  border:none;
+}
